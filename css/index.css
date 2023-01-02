@@ -71,14 +71,15 @@
         width: 100vw;
     }
     .imagecontainer{
-        margin-top: 50%;
+        margin-top: 45%;
     }
     .logoimage{
         margin: 0 auto;
         width: fit-content;
     }
     .logoimage img{
-        width: 18rem;
+        width: 85%;
+        margin-left: 7.5%;
         animation-name: changer;
         animation-duration: 1s;
         animation-delay: .5s;
@@ -102,7 +103,7 @@
     }
     .directives button{
         clip-path: polygon(84% 0, 100% 23%, 100% 60%, 100% 100%, 19% 100%, 0 80%, 0 0);        
-        width: 10rem;
+        width: 15rem;
         box-sizing: content-box;
         aspect-ratio: 2/0.5;
         color: white;
@@ -129,8 +130,8 @@
         background-color: #FE3D2E;
         cursor: pointer;
         color: var(--slideTextColor);
-      cursor: pointer;
-      background-position: -100% 100%;
+        cursor: pointer;
+        background-position: -100% 100%;
     }
     #section2{
         background-image: url('../images/home/main-home-bckgd-img.jpg');
@@ -330,5 +331,161 @@
         background-size: 100% 100%;
         background-attachment: scroll;
     }
+    .newer{
+        margin-top: 10%;
+        width: 80vw;
+        margin-left: 10vw;
+        background-color: rgba(87, 4, 87, .3);
+        
+    }
+    .newer img{
+        width: 100%;
+        aspect-ratio:16/10 ;
+    }
+    .newerimage{
+        margin-bottom: 0;
+    }
+    .imageinfo{
+        
+        width: 90%;
+        padding-top: 5%;margin-top: 0;
+        font-size: 1.2rem;
+    }
+    .minorinfo{
+        color: purple;
+    }
+    .imageinfo span:hover{
+        color: #FE3D2E;
+        transition: color .5s;
+    }
+    #teams{
+        background-image: url('../images/home/main-home-bckgd-img.jpg');
+        background-attachment: scroll;
+    }
+    #dereck{
+        background-image: url('../images/home/rooster-img-6-768x768.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+    }
+    #BEN{
+        background-image: url('../images/home/rooster-img-1-768x768.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+    }
+    #gosta{
+        background-image: url('../images/home/rooster-img-2-768x768.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+    }
+    #arnfa{
+        background-image: url('../images/home/rooster-img-3-768x768.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+    }
+    #zacha{
+        background-image: url('../images/home/rooster-img-4-768x768.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+    }
+    #sveker{
+        background-image: url('../images/home/main-home-blog-slider-img-1\ -\ Copy.jpg');
+        background-size: 100% 100%;
+        background-attachment: scroll;
+    }
+    .detailcontainer div{
+        margin-top: 70%;
+    }
+    .teamtitles{
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .teamtitles p{
+        text-align: end;
+        font-size: 1.8rem;
+    }
+    .detailcontainer{
+        width: 80vw;
+        margin-left: 5vw;
+        margin-bottom: 10%;
+        padding-left: 10%;
+        font-size: 1.3rem;
+    }
+    .detailcontainer:hover{
+        clip-path: polygon(91% 0, 100% 11%, 100% 60%, 100% 99%, 8% 100%, 0 91%, 0 0);
+        transform: scale(1.05);
+        transition: transform 1s,clip-path .5s;
+        cursor: pointer;
+    }
+    .detailcontainer:hover span{
+        color: #FE3D2E;
+        transition: color .5s;
+    }
+    .detailcontainer span{
+        margin-bottom: 10%;
+    }
+    .newstitle p{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .newstitle{
+        margin-top: 10%;
+    }
+    .email{
+        margin-top: 10%;
+    }
+    .email div{
+        display: flex;
+        justify-content: center;
+    }
+    .email input{
+        background-color: transparent;
+        color: white;
+        outline: none;
+        width: 70vw;
+        aspect-ratio: 2/0.3;
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+    }
+    .email button{
+        width: 70vw;
+        aspect-ratio: 2/0.3;
+        clip-path: polygon(91% 0, 100% 11%, 100% 60%, 100% 99%, 8% 100%, 0 91%, 0 0);
+        background-color: #FE3D2E;
+        --initialTextColor: #FFF;
+      --slideTextColor: #FFF;
 
+      --initialBgColor: #6E48B1;
+      --slideBgColor: #FE3D2E;
+
+      color: var(--initialTextColor);
+
+      background-image: linear-gradient(90deg,
+          var(--initialBgColor) 0%,
+          var(--initialBgColor) 50%,
+          var(--slideBgColor) 50%,
+          var(--slideBgColor) 100%);
+        background-size: 200%;
+        transition: background-position .3s cubic-bezier(.47, .1, 1, .63),
+        color .2s linear;
+      transition-delay: 0.0s, 0.15s;
+    }
+    .email button:hover{
+        background-color: #6E48B1;
+        cursor: pointer;
+        color: var(--slideTextColor);
+        cursor: pointer;
+        background-position: -100% 100%;
+    }
+    footer{
+        margin-top: 20%;
+    }
+    .footerimage{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+    }
+    .footerdirectives p{
+        text-align: center;
+        margin-bottom: 5%;
+    }
 }
