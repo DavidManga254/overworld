@@ -104,6 +104,8 @@
     .directives button{
         clip-path: polygon(84% 0, 100% 23%, 100% 60%, 100% 100%, 19% 100%, 0 80%, 0 0);        
         width: 15rem;
+        height: 5rem;
+        font-size: 1.8rem;
         box-sizing: content-box;
         aspect-ratio: 2/0.5;
         color: white;
@@ -448,7 +450,8 @@
     }
     .email button{
         width: 70vw;
-        aspect-ratio: 2/0.3;
+        height: 5rem;
+        font-size: 1.7rem;
         clip-path: polygon(91% 0, 100% 11%, 100% 60%, 100% 99%, 8% 100%, 0 91%, 0 0);
         background-color: #FE3D2E;
         --initialTextColor: #FFF;
