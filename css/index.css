@@ -71,7 +71,7 @@
         width: 100vw;
     }
     .imagecontainer{
-        margin-top: 45%;
+        margin-top: 30%;
     }
     .logoimage{
         margin: 0 auto;
@@ -240,6 +240,7 @@
         position: relative;
     }
     .theslider{
+        scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
         display: flex;
         overflow-x: hidden;
@@ -251,6 +252,7 @@
         display: none;
     }
     .slidernews{
+        scroll-snap-align:center;
         width:90vw;
         margin-right: 2rem;
     }
@@ -301,12 +303,13 @@
     .right{
         position: absolute;
         right: 3vw;
-        top: 50%;
+        top: 40%;
         font-size: 3rem;
     }
     .left{
         position: absolute;
-        top: 50%;
+        left: 3vw;
+        top: 40%;
         font-size: 3rem;
     }
     .right:hover, .left:hover{
